@@ -1,4 +1,4 @@
-const WeatherAdmin = require("./starter/WeatherAdmin.js");
+const WeatherAdmin = require("./WeatherAdmin.js");
 
 // Hold the value whether someone is an "admin" or "user"
 const loginType = process.argv[2];
@@ -14,7 +14,6 @@ const myAdmin = new WeatherAdmin();
 
 if (loginType === "admin") {
   myAdmin.getData();
-}
-else if {
+} else {
   myAdmin.newUserSearch(userName, userLocation);
 }
