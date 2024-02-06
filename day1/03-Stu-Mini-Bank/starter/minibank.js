@@ -1,3 +1,4 @@
+// constructor function
 function MiniBank(balance) {
   this.balance = balance;
   this.statement = [balance]; // Initializing statement array with initial balance
@@ -36,3 +37,17 @@ function MiniBank(balance) {
     this.setBalance(this.balance - value);
   };
 }
+
+// ### Part 2 - Create and use a `MiniBank` instance
+let bank = new MiniBank(0);
+
+// 2. Print the `bank` balance.
+bank.printBalance();
+// 3. Deposit some money into the `bank` object.
+bank.deposit(1000);
+// 4. Print the `bank` balance.
+bank.printBalance();
+// 5. Withdraw some money from the `bank` object.
+bank.withdraw(200);
+// 6. Print the `bank` balance.
+bank.printBalance();
