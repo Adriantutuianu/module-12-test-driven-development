@@ -1,15 +1,9 @@
-const Algo = require("../algo");
+const Algo = require("../algo.js");
 
 describe("Algo", () => {
-  describe("reverse", () => {
+  describe("reverse", () => {});
 
-  });
+  describe("isPalindrome", () => {});
 
-  describe("isPalindrome", () => {
-   
-  });
-
-  describe("capitalize", () => {
-    
-  });
+  describe("capitalize", () => {});
 });

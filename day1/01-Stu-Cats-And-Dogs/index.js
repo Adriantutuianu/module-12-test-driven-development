@@ -11,6 +11,7 @@ const dogs = {
 
 // make the dog to bark
 dogs.makeNoise();
+dogs.test();
 
 const cats = {
   raining: true,
